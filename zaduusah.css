@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .head {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+  }
+  .XD {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .XD p {
+    font-size: large;
+    color: rgb(170, 168, 168);
+  }
+  .search {
+    height: 40px;
+    width: 268px;
+    bottom: 8px;
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(54, 54, 54);
+    border: 2px;
+    color: white;
+  
+  }
+  .search input {
+    height: 40px;
+    width: 268px;
+    border-radius: 40px;
+    background-color: rgb(54, 54, 54);
+    border: 2px;
+    color: white;
+  }
+  .search input:active {
+   background-color: green;
+   border-color: red;
+  }
+  
+  .search img {
+    height: 30px;
+    width: 30px;
+    right: 230px;
+    top: 5px;
+  }
+  .lgin button{
+      height: 36px;
+      width: 80px;
+      border-radius: 50px;
+      color: white;
+      border: 1px solid blue;
+  }
+  .register{
+      background-color: black;
+  }
+  .login{
+      background-color: blue;
+  }
+  .lgin{
+      display: flex;
+      gap: 10px;
+      bottom: 5px;
+  }
+  .heart{
+  
+  }
+  .search:active{
+      border: 2px solid gray;
+  }
+  input {
+      background-color: transparent;
+      border: 0px solid;
+      height: 20px;
+      width: 160px;
+      color: #CCC;
+  }
+  .hoodie img{
+    
+  }

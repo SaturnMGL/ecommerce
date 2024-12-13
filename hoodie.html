@@ -1,49 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="hoodie.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="hoodie.css" />
+  </head>
+  <body>
     <div class="head">
-        <div class="XD">
-          <h1>ECOMMENCE</h1>
-          <p>types</p>
+      <div class="XD">
+        <h1>ECOMMENCE</h1>
+        <p>types</p>
+      </div>
+      <div class="search">
+        <img src="a.png" alt="" />
+        <input type="" placeholder="search product" />
+      </div>
+      <div class="icons">
+        <img src="" alt="" class="heart" />
+        <img src="" alt="" />
+        <div class="lgin">
+          <a href="signup.html"><button  class="register">register</button></a>
+          <a href="login.html"><button class="login">login</button></a>
         </div>
-        <div class="search">
-          <img src="a.png" alt="" />
-          <input type="" placeholder="search product" />
+      </div>
+    </div>
+    <div style="background-color: #f9f7f3; max-width: 1200px; margin: 0 auto; padding: 40px">
+      <!-- Left Thumbnails -->
+      <div style="display: flex; gap: 40px">
+        <div style="margin-top: 100px; display: flex; flex-direction: column; gap: 10px">
+          <img
+            src="image 1174.png"
+            alt="Image 1"
+            style="
+              width: 64px;
+              height: 64px;
+              border-radius: 4px;
+              cursor: pointer;
+              object-fit: cover;
+              border: 2px solid rgb(87, 87, 87) ;
+            "
+          />
+          <img
+            src="front.png"
+            alt="Image 2"
+            style="
+              width: 64px;
+              height: 64px;
+              border-radius: 4px;
+              cursor: pointer;
+              object-fit: cover;
+            "
+          />
+          <img
+            src="back.png"
+            alt="Image 3"
+            style="
+              width: 64px;
+              height: 64px;
+              border-radius: 4px;
+              cursor: pointer;
+              object-fit: cover;
+            "
+          />
+          <img
+            src="zoomed front.png"
+            alt="Image 4"
+            style="
+              width: 64px;
+              height: 64px;
+              border-radius: 4px;
+              cursor: pointer;
+              object-fit: cover;
+            "
+          />
         </div>
-        <div class="icons">
-          <img src="" alt="" class="heart" />
-          <img src="" alt="" />
-          <div class="lgin">
-            <a href="signup.html"><button  class="register">register</button></a>
-            <a href="login.html"><button class="login">login</button></a>
+
+        <!-- Main Image -->
+        <div>
+          <img
+            src="image 1174.png"
+            alt="Main Product Image"
+            style="
+              width: 500px;
+              height: 600px;
+              border-radius: 8px;
+              object-fit: cover;
+              background-color: #f3f4f6;
+            "
+          />
+        </div>
+
+        <!-- Product Info -->
+        <div style="flex: 1 ; margin-top: 80px;" >
+          <span
+              style="
+                border: 1px solid rgb(52, 52, 255);
+                color: black;
+                padding: 2px 12px;
+                border-radius: 12px;
+                font-size: 12px;
+                margin-top: 100px;
+              "
+              >шинэ</span
+            >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-top: 30px;
+              margin-bottom: 16px;
+            "
+          >
+            
+            <h1 style="font-size: 24px; margin: 0">Wildflower Hoodie</h1>
+            <button
+              style="
+                background: none;
+                border: none;
+                cursor: pointer;
+                margin-left: auto;
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <p style="color: #6b7280; margin-bottom: 24px">
+            Зэрлэг цэцгийн зурагтай давуун материалтай цамц
+          </p>
+
+          <div style="margin-bottom: 24px">
+            <p style="font-weight: 500; margin-bottom: 8px">
+              Хэмжээний сонголт:
+            </p>
+            <div style="display: flex; gap: 8px">
+              <button
+                style="
+                  width: 36px;
+                  height: 36px;
+                  border: 1px solid #e5e7eb;
+                  border-radius: 50%;
+                  background: white;
+                  cursor: pointer;
+                  font-size: 14px;
+                "
+              >
+                S
+              </button>
+              <button
+                style="
+                  width: 36px;
+                  height: 36px;
+                  border: 1px solid #e5e7eb;
+                  border-radius: 50%;
+                  background: white;
+                  cursor: pointer;
+                  font-size: 14px;
+                "
+              >
+                M
+              </button>
+              <button
+                style="
+                  width: 36px;
+                  height: 36px;
+                  border: 1px solid #e5e7eb;
+                  border-radius: 50%;
+                  background: white;
+                  cursor: pointer;
+                  font-size: 14px;
+                "
+              >
+                L
+              </button>
+              <button
+                style="
+                  width: 36px;
+                  height: 36px;
+                  border: 1px solid #e5e7eb;
+                  border-radius: 50%;
+                  background: white;
+                  cursor: pointer;
+                  font-size: 14px;
+                "
+              >
+                XL
+              </button>
+              <button
+                style="
+                  width: 36px;
+                  height: 36px;
+                  border: 1px solid #e5e7eb;
+                  border-radius: 50%;
+                  background: white;
+                  cursor: pointer;
+                  font-size: 14px;
+                "
+              >
+                2XL
+              </button>
+            </div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              margin-bottom: 24px;
+            "
+          >
+            <button
+              style="
+                width: 36px;
+                height: 36px;
+                border: 1px solid #e5e7eb;
+                border-radius: 50%;
+                background: white;
+                cursor: pointer;
+                font-size: 16px;
+              "
+            >
+              -
+            </button>
+            <span style="font-size: 16px">1</span>
+            <button
+              style="
+                width: 36px;
+                height: 36px;
+                border: 1px solid #e5e7eb;
+                border-radius: 50%;
+                background: white;
+                cursor: pointer;
+                font-size: 16px;
+              "
+            >
+              +
+            </button>
+          </div>
+
+          <p style="font-size: 24px; font-weight: 600; margin-bottom: 24px">
+            120'000₮
+          </p>
+
+          <button
+            style="
+              width: 40%;
+              padding: 12px;
+              background-color: #4f46e5;
+              color: white;
+              border: none;
+              border-radius: 40px;
+              cursor: pointer;
+              font-size: 16px;
+
+            "
+          >
+            Сагсанд нэмэх
+          </button>
+
+          <!-- Reviews -->
+          <div style="margin-top: 40px">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 16px;
+              "
+            >
+              <span style="font-size: 20px; font-weight: 600">4.6</span>
+              <div style="display: flex; gap: 2px">⭐⭐⭐⭐⭐</div>
+              <span style="color: #6b7280">(24)</span>
+              <label
+                for="toggleReviews"
+                style="
+                  color: #4f46e5;
+                  text-decoration: none;
+                  margin-left: auto;
+                  cursor: pointer;
+                "
+              >
+                бүгдийг харах
+              </label>
+            </div>
+          </div>
+
+          <!-- Hidden Checkbox -->
+          <input type="checkbox" id="toggleReviews" style="display: none" />
+
+          <!-- Review Comments -->
+          <div id="reviewsSection" style="margin-top: 20px; padding: 20px">
+            <h3>Сэтгэгдлүүд:</h3>
+            <p>
+              <strong>Saraa:</strong>
+              <span>Бараа материал маш сайн байна.</span>
+            </p>
+            <p><strong>Saraa:</strong> <span>🔥🔥🔥</span></p>
+            <div style="margin-top: 20px">
+              <p>Өөрийн үнэлгээ:</p>
+              <textarea
+                style="
+                  width: 100%;
+                  height: 100px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                "
+              ></textarea>
+              <button
+                style="
+                  margin-top: 10px;
+                  padding: 10px 20px;
+                  background-color: #2563eb;
+                  color: white;
+                  border: none;
+                  border-radius: 4px;
+                "
+              >
+                Илгээх
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div id="biy">
-        <div id="img" style="display: flex; justify-content: center;">
-            <div id="hoodie" style="display: flex; gap: 20px; margin-top: 50px;">
-                <div id="img4" style="display: flex; flex-direction: column; margin-top: 120px; gap:10px;">
-                    <img src="" alt="" width="67" height="67">
-                    <img src="" alt="" width="67" height="67">
-                    <img src="" alt="" width="67" height="67">
-                    <img src="" alt="" width="67" height="67">
-                </div>
-                <div >
-                    <img src="image 1174.png" alt="" width="422px" height="521px" style="border-radius: 20px;">
-                </div>
-                <div id="word">
-                    <div style="border: 2px solid blue; border-radius: 20px;">
-                        <p>new</p>
-                    </div>
-                </div>
-            </div>
+    </div>
+
+    <style>
+      #toggleReviews:checked ~ #reviewsSection {
+        display: block;
+      }
+
+      #toggleReviews:not(:checked) ~ #reviewsSection {
+        display: none;
+      }
+    </style>
+    <div style="margin-top: 50px;">
+      <h1 style="display: flex; margin-left: 270px; margin-bottom: 50px;" >Холбоотой бараа</h1>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 8px;
+          margin-top: 8px;
+        "
+      >
+        <div style="display: flex; gap: 20px">
+      
+          <div style=" position: relative; width: 245px; height: 391; gap: 8px">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img 
+                src="image (1).png"
+              alt=""
+              width="244px"
+              height="331px"
+              style=" border-radius: 20px"
+            />
+            <p>All Smiles Nalgene</p>
+            <h3>120'000₮</h3>
+          </div>
+          <div style="width: 245px; height: 391; gap: 8px ;position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24px"
+                height="24px"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image (1).png"
+              alt=""
+              width="244px"
+              height="331px"
+              style="border-radius: 20px"
+            />
+            
+            <p>All Smiles Nalgene</p>
+            <h3>120'000₮</h3>
+          </div>
+          
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image.png"
+              alt=""
+              width="244px"
+              height="331px "
+              style="border-radius: 20px"
+            />
+            <p>The prompt Magazine</p>
+            <h3>120'000₮</h3>
+          </div>
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image.png"
+              alt=""
+              width="244px"
+              height="331px"
+              style="border-radius: 20px"
+            />
+            <p>The prompt Magazine</p>
+            <h3>120'000₮</h3>
+          </div>
+        </div>
+        <div style="display: flex; gap: 20px">
+          <div style="">
+            <div style="display: flex; gap: 20px">
+              
+          
+        </div>
+        <div style="display: flex; gap: 20px">
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image (1).png"
+              alt=""
+              width="244px"
+              height="331px"
+              style="border-radius: 20px"
+            />
+            <p>All Smiles Nalgene</p>
+            <h3>120'000₮</h3>
+          </div>
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image (1).png"
+              alt=""
+              width="244px"
+              height="331px"
+              style="border-radius: 20px"
+            />
+            <p>All Smiles Nalgene</p>
+            <h3>120'000₮</h3>
+          </div>
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image.png"
+              alt=""
+              width="244px"
+              height="331px "
+              style="border-radius: 20px"
+            />
+            <p>The prompt Magazine</p>
+            <h3>120'000₮</h3>
+          </div>
+          <div style="width: 245px; height: 391; gap: 8px; position: relative;">
+            <svg 
+            style="position: absolute; right: 20px; top: 20px;"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
+            <img
+              src="image.png"
+              alt=""
+              width="244px"
+              height="331px"
+              style="border-radius: 20px"
+            />
+            <p>The prompt Magazine</p>
+            <h3>120'000₮</h3>
+          </div>
         </div>
       </div>
-</body>
+    </div>
+    <div
+      style="
+        width: 1577px;
+        height: 282px;
+        background-color: black;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          height: 48px;
+          width: 857;
+          gap: 400px;
+          color: white;
+        "
+      >
+        <img src="" alt="" width="79" height="34" />
+        <div
+          style="
+            width: 434px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            gap: 208px;
+          "
+        >
+          <p>573 58390534</p>
+          <p>contact@gmail.com</p>
+        </div>
+      </div>
+      <div
+        style="
+          width: 913px;
+          height: 0;
+          border: 2px solid rgb(63, 63, 63);
+          margin-top: 60px;
+        "
+      ></div>
+      <div
+        style="
+          display: flex;
+          color: white;
+          justify-content: space-between;
+          width: 910px;
+          margin-top: 70px;
+        "
+      >
+        <p>@ 2024 Ecommerce MN</p>
+        <div class="internet">
+          <img src="" alt="" width="20px" height="20px" />
+          <img src="" alt="" width="20px" height="20px" />
+          <img src="" alt="" width="20px" height="20px" />
+          <img src="https://www.facebook.com/" alt="" width="21px" height="20px" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
